@@ -1,0 +1,28 @@
+:root {
+	font-family: poppins;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
